@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Gidole-Regular';
+    src: url(./fonts/Gidole-Regular.ttf);
+}
+
+/**
+*  Couleur primaire : #40b0ff
+*/
+
 * {
     margin: 0;
 }
@@ -7,13 +16,17 @@ html {
 }
 
 body {
-    background-color: #E3F4FF;
+    background-color: #ecf7ff;
     text-align: justify;
     align-content: center;
+
+    width: 95vw;
+
+    font-family: 'Gidole-Regular', sans-serif;
 }
 
 
-.header-nav{
+.header-nav {
     border-bottom: 2px solid black;
     align-content: center;
     height: 7vw;
@@ -48,11 +61,22 @@ body {
 }
 
 .nav-list-element {
+    border: 2px solid #a0d8ff;
+    border-radius: 5px;
     margin-right: 10vw;
     text-align: center;
+    background-color: #40b0ff;
 }
 
-footer{
+.nav-list-element:hover {
+    background-color: #338dcc;
+}
+
+q {
+    font-style: italic;
+}
+
+footer {
     margin-top: 2vw;
     border-top: 2px solid black;
     text-align: center;
