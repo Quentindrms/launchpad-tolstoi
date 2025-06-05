@@ -13,6 +13,7 @@
 
 html {
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -24,12 +25,13 @@ body {
 }
 
 .header {
-  border-bottom: 2px solid #78b1c5;
+  border-bottom: 2px solid #93c1d1;
 
   background: url(./img/Iasnaia_Poliana.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+  background-color: #bcd8e2;
 
   display: flex;
   flex-direction: column;
@@ -108,12 +110,8 @@ body {
   align-self: center;
 }
 
-#childhood-1 {
+#childhood {
   width: 25%;
-}
-
-#childhood-2 {
-  width: 30%;
 }
 
 #about-the-war {
@@ -183,7 +181,7 @@ q {
   flex-direction: column;
 }
 
-.arrow-container{
+.arrow-container {
   display: flex;
   justify-content: flex-end;
   margin-right: 75px;
@@ -198,4 +196,98 @@ footer {
   margin-top: 2vw;
   border-top: 2px solid black;
   text-align: center;
+}
+
+@media (max-width: 750px) {
+
+  html {
+    font-size: 16px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+  }
+
+  .nav-list-element {
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+    width: 95%;
+    text-align: justify;
+  }
+
+  .main-title {
+    font-size: 2rem;
+    word-break: break-word;
+    text-align: center;
+  }
+
+  .medium-title {
+    font-size: 1.5rem;
+  }
+
+  .little-title {
+    font-size: 1.25rem;
+    margin: 10px;
+  }
+
+  #text-intro {
+    width: 90%;
+  }
+
+
+  .summary-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-presentation {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .quote {
+    width: 90%;
+  }
+
+  .section-main-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #childhood {
+    width: 90%;
+    text-align: justify;
+  }
+
+  #p-about-war {
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+  .last-years {
+    width: 90%;
+    align-items: center;
+  }
+
+  .ideas {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
 }
