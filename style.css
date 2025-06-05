@@ -183,6 +183,18 @@ q {
   flex-direction: column;
 }
 
+.arrow-container{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75px;
+}
+
+.arrow-up{
+  width: 50px;
+  height: auto;
+
+}
+
 footer {
   margin-top: 2vw;
   border-top: 2px solid black;
