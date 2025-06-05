@@ -110,7 +110,7 @@ body {
   align-self: center;
 }
 
-#childhood {
+.childhood {
   width: 25%;
 }
 
@@ -268,7 +268,7 @@ footer {
     align-items: center;
   }
 
-  #childhood {
+  .childhood {
     width: 90%;
     text-align: justify;
   }
