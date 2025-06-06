@@ -1,6 +1,6 @@
-Contexte du projet
+***Contexte du projet***
 
-Situation professionnelle :
+**Situation professionnelle:**
 
 ​
 
@@ -8,7 +8,7 @@ En tant que concepteur développeur d'application, installer les outils nécessa
 
 ​
 
-Contexte du brief :
+**Contexte du brief :**
 
 ​
 
